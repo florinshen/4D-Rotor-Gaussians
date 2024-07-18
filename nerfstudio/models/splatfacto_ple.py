@@ -32,7 +32,7 @@ import torch
 #from gsplat.rasterize import RasterizeGaussians
 #from gsplat.rasterize import rasterize_gaussians
 from simple_knn._C import distCUDA2
-from diff_gaussian_rasterization import GaussianRasterizationSettings, GaussianRasterizer
+from diff_gaussian_rasterization_confidence import GaussianRasterizationSettings, GaussianRasterizer
 
 #from nerfstudio.utils.sh import num_sh_bases
 from pytorch_msssim import SSIM
